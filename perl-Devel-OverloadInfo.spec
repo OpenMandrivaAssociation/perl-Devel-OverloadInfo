@@ -12,6 +12,8 @@ Source0:	http://search.cpan.org/CPAN/authors/id/I/IL/ILMARI/Devel-OverloadInfo-%
 BuildArch:	noarch
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
+BuildRequires:	perl(Sub::Identify)
+BuildRequires:	perl(MRO::Compat)
 
 %description
 Perl module for introspecting overloaded operators
