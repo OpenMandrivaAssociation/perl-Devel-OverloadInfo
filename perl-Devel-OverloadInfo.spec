@@ -14,6 +14,9 @@ BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 BuildRequires:	perl(Sub::Identify)
 BuildRequires:	perl(MRO::Compat)
+# For tests
+BuildRequires:	perl(Package::Stash)
+BuildRequires:	perl(Test::Fatal)
 
 %description
 Perl module for introspecting overloaded operators
