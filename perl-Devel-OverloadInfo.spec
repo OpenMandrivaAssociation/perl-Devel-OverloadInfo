@@ -1,10 +1,10 @@
 %define modname Devel-OverloadInfo
-%define modver 0.005
+%define modver 0.007
 
 Summary:	Perl module for introspecting overloaded operators
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	4
+Release:	1
 Group:		Development/Perl
 License:	GPLv2+ or Artistic
 Url:		http://metacpan.org/pod/Devel::OverloadInfo
