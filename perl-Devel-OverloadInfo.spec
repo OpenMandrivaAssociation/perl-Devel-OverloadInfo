@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	2
 Group:		Development/Perl
 License:	GPLv2+ or Artistic
-Url:		http://metacpan.org/pod/Devel::OverloadInfo
+Url:		https://metacpan.org/pod/Devel::OverloadInfo
 Source0:	http://search.cpan.org/CPAN/authors/id/I/IL/ILMARI/Devel-OverloadInfo-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::More)
