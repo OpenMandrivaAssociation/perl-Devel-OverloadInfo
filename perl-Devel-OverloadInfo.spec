@@ -1,14 +1,13 @@
 %define modname Devel-OverloadInfo
-%define modver 0.007
 
 Summary:	Perl module for introspecting overloaded operators
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	3
+Version:	0.007
+Release:	1
 Group:		Development/Perl
 License:	GPLv2+ or Artistic
 Url:		https://metacpan.org/pod/Devel::OverloadInfo
-Source0:	http://search.cpan.org/CPAN/authors/id/I/IL/ILMARI/Devel-OverloadInfo-%{modver}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/I/IL/ILMARI/Devel-OverloadInfo-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
@@ -22,7 +21,7 @@ BuildRequires:	perl(Test::Fatal)
 Perl module for introspecting overloaded operators
 
 %prep
-%autosetup -n %{modname}-%{modver} -p1
+%autosetup -n %{modname}-%{version} -p1
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
