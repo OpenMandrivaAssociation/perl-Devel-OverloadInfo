@@ -2,7 +2,7 @@
 
 Summary:	Perl module for introspecting overloaded operators
 Name:		perl-%{modname}
-Version:	0.007
+Version:	0.008
 Release:	1
 Group:		Development/Perl
 License:	GPLv2+ or Artistic
