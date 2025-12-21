@@ -9,6 +9,7 @@ License:	GPLv2+ or Artistic
 Url:		https://metacpan.org/pod/Devel::OverloadInfo
 Source0:	http://search.cpan.org/CPAN/authors/id/I/IL/ILMARI/Devel-OverloadInfo-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 BuildRequires:	perl(Sub::Identify)
